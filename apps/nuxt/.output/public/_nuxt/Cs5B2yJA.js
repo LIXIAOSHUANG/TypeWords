@@ -1,0 +1,1 @@
+import{X as s,o as a,c as t,a as c,m as o}from"./CL2Zm6Gn.js";const n={},r={class:"flex justify-center"},_={class:"page 3xl:w-[50vw] 2xl:w-[60vw] xl:w-[70vw] lg:w-[75vw]"};function d(e,l){return a(),t("div",r,[c("div",_,[o(e.$slots,"default",{},void 0,!0)])])}const i=Object.assign(s(n,[["render",d],["__scopeId","data-v-d4bbffa5"]]),{__name:"BasePage"});export{i as B};

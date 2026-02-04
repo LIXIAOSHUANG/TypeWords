@@ -6,7 +6,12 @@
     "dev": "nuxt dev",
     "build": "nuxt build",
     "test": "",
+    "generate:only": "nuxt generate && node scripts/do.js ",
     "generate": "nuxt generate && node scripts/do.js && node ../../scripts/deploy-eo-pages.js --dir dist --name type-words-deploy",
     "preview": "nuxt preview"
+  },
+  "devDependencies": {
+    "@nuxtjs/sitemap": "^7.6.0",
+    "dotenv": "^17.2.3"
   }
 }

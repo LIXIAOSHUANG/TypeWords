@@ -3,9 +3,10 @@
   "private": true,
   "scripts": {
     "build-web": "pnpm -F @typewords/nuxt generate",
+    "build-web:only": "pnpm -F @typewords/nuxt generate:only",
     "build-vscode-web": "pnpm -F @typewords/vscode-web build",
     "build-all": "pnpm run generate && pnpm run build:vscode-web",
-    "generate": "node scripts/deploy-eo-pages.js",
+    "build-all:only": "pnpm run generate:only && pnpm run build:vscode-web",
     "test": ""
   },
   "dependencies": {
