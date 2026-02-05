@@ -13,7 +13,10 @@ declare module "nitropack/types" {
       'default': Simplify<Serialize<Awaited<ReturnType<typeof import('../../server/#internal/nuxt/island-renderer').default>>>>
     }
     '/_i18n/:hash/:locale/messages.json': {
-      'default': Simplify<Serialize<Awaited<ReturnType<typeof import('../../../../node_modules/@nuxtjs/i18n/dist/runtime/server/routes/messages').default>>>>
+      'default': Simplify<Serialize<Awaited<ReturnType<typeof import('../../../../node_modules/.pnpm/@nuxtjs+i18n@10.2.1_@netlify+blobs@9.1.2_@vue+compiler-dom@3.5.27_db0@0.3.4_eslint@9.39_2aabd647664cd745dfd6f256dbb187ec/node_modules/@nuxtjs/i18n/dist/runtime/server/routes/messages').default>>>>
+    }
+    '/_ipx/**': {
+      'default': Simplify<Serialize<Awaited<ReturnType<typeof import('../../../../node_modules/.pnpm/@nuxt+image@2.0.0_@netlify+blobs@9.1.2_db0@0.3.4_idb-keyval@6.2.2_ioredis@5.9.2_magicast@0.5.1/node_modules/@nuxt/image/dist/runtime/server/routes/_ipx').default>>>>
     }
   }
 }

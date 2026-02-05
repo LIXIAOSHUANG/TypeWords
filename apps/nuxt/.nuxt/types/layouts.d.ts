@@ -1,5 +1,5 @@
-import _default from "/Users/lishuang/Documents/workspace/web/study/vue/TypeWords-master/apps/nuxt/app/layouts/default.vue";
-import empty from "/Users/lishuang/Documents/workspace/web/study/vue/TypeWords-master/apps/nuxt/app/layouts/empty.vue";
+import _default from "/Users/lishuang/Documents/workspace/web/study/vue/TypeWords/apps/nuxt/app/layouts/default.vue";
+import empty from "/Users/lishuang/Documents/workspace/web/study/vue/TypeWords/apps/nuxt/app/layouts/empty.vue";
 import type { ComputedRef, MaybeRef } from 'vue'
 declare module 'nuxt/app' {
   interface NuxtLayouts {

@@ -2,7 +2,7 @@
 /// <reference path="nitro-layouts.d.ts" />
 /// <reference path="app.config.d.ts" />
 /// <reference path="runtime-config.d.ts" />
-/// <reference types="/Users/lishuang/Documents/workspace/web/study/vue/TypeWords-master/node_modules/@nuxt/nitro-server/dist/index.mjs" />
+/// <reference types="/Users/lishuang/Documents/workspace/web/study/vue/TypeWords/node_modules/.pnpm/@nuxt+nitro-server@4.3.0_@netlify+blobs@9.1.2_db0@0.3.4_idb-keyval@6.2.2_ioredis@5.9.2__94df476f6c6d851692251aefbf8a1ef9/node_modules/@nuxt/nitro-server/dist/index.mjs" />
 /// <reference path="../image/providers.d.ts" />
 /// <reference path="nitro-middleware.d.ts" />
 
